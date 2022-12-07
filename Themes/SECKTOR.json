@@ -1,8 +1,8 @@
 {
   "__JSON__": true,
   "AUTHOR": "👹 ʀᴏꜱʜᴀɴ ᴄʜᴀᴍɪᴋᴀ 👹",
-  "LANGUAGE": "English",
-  "LANGCODE": "en",
+  "LANGUAGE": "Sinhala",
+  "LANGCODE": "si",
   "STRINGS": {
       "updater": {
           "UPDATE": "*Your bot is already on latest version Sir*",
