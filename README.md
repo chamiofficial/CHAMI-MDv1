@@ -1,6 +1,6 @@
   <p align="center">  
   <a href="https://citel.vercel.app/">
-    <img alt="secktor docs" height="300" src="https://secktorbot.tech/main.jpg">
+    <img alt="secktor docs" height="300" src="https://i.imgur.com/Rgf8y2j.jpeg">
     <h1 align="center">👹 CHAMI-MD-WA-BOT 👹</h1>
   </a>
 </p>
