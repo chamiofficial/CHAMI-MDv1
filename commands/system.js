@@ -259,14 +259,19 @@ cmd({
             let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by ❰ 👹 𝚁𝙾𝚂𝙷𝙰𝙽 𝙲𝙷𝙰𝙼𝙸𝙺𝙰 👹 ❱*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
+
 *This is  ${tlang().title}.*
 ${alivemessage}
-*Version:-* *This is Testing Version*
-*Uptime:-* ${runtime(process.uptime())}
-*Owner:-* ${Config.ownername}
-*Branch:-* ${Config.BRANCH}
 
-*Type ${prefix}menu for my command list.*
+*Version  :-*This is Testing Version*
+
+*Uptime  :-* ${runtime(process.uptime())}
+
+*Owner  :-* ${Config.ownername}
+
+*Owner Number*  :- wa.me/94775512050
+
+*Type ${prefix}menu for get command list.*
 
 📌 _මෙය පිට රට whatsapp user bot කෙනෙකු පාදක කරගෙන නිර්මාණය කරන ලද whatsapp bot කෙනෙකි._
 
