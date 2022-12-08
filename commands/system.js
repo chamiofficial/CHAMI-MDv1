@@ -256,19 +256,25 @@ cmd({
         },
         async(Void, citel, text, isAdmins) => {
             const aliveadm = isAdmins ? "True" : "False";
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by ❰ 👹 𝚁𝙾𝚂𝙷𝙰𝙽 𝙲𝙷𝙰𝙼𝙸𝙺𝙰 👹 ❱*`
             const alivtxt = `
-*Hello, my ${citel.pushName},*
+*Hello, ${citel.pushName},*
 *This is  ${tlang().title}.*
 ${alivemessage}
-*Version:-* 0.0.6
+*Version:-* *This is Testing Version*
 *Uptime:-* ${runtime(process.uptime())}
 *Owner:-* ${Config.ownername}
 *Branch:-* ${Config.BRANCH}
 
 *Type ${prefix}menu for my command list.*
 
-*Powered by ${Config.ownername}*
+📌 _මෙය පිට රට whatsapp user bot කෙනෙකු පාදක කරගෙන නිර්මාණය කරන ලද whatsapp bot කෙනෙකි._
+
+📌 _මෙහි ඇති සමහර command ලංකාවට ගැලපෙන ලෙස නැවත සකස් කර ප්‍රතිස්ථාපනය කර ඇත._
+
+📌 _මෙය Testing Version එකක් වන අතර, බොට් ගැන ඔබට නොතේරෙන යමක් ඇත්නම් කරුණාකර බොට්ගේ owner ට දැනුම් දෙන්න._
+
+*Powered by 👹 CHAMI-MD-WA-BOT 👹*
 `;
             let aliveMessage = {
                 image: {
