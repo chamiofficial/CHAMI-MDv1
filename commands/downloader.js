@@ -481,7 +481,7 @@ cmd({
 
   //---------------------------------------------------------------------------
 cmd({
-        pattern: "ytdoc",
+        pattern: "ytd",
         desc: "Downloads audio by yt link as document.",
         category: "downloader",
         use: '<ytdoc video url>',
