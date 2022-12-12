@@ -69,7 +69,7 @@ cmd({
             let yts = require("secktor-pack")
             let search = await yts(text)
             listSerch = []
-            teskd = `\nResult got from ${text}.\n`
+            teskd = `\nඔබ සෙවූ වචනය ${text}. කරුණාකර 100MB ට අඩු වීඩියෝ පමණක් තෝරා එවන්න\n`
             for (let i of search.all) {
                 listSerch.push({
                     title: i.title,
@@ -80,7 +80,7 @@ cmd({
             const sections = [
 
                 {
-                    title: "Total Search🔍" + search.all.length,
+                    title: "සම්පුර්ණ සෙවීම් / Total" + search.all.length,
                     rows: listSerch
                 }
 
@@ -88,8 +88,8 @@ cmd({
             const listMessage = {
                 text: teskd,
                 footer: tlang().footer,
-                title: ` *Youtube Search results by  ${tlang().title}.*`,
-                buttonText: "Videos",
+                title: ` *${tlang().title}. 🎥 Youtube Video Downloader 👨‍🔧*`,
+                buttonText: "ඔබට අවශ්‍ය වීඩියෝව තෝරා එවන්න",
                 mentions: await Void.parseMention(teskd),
                 sections
             }
@@ -115,21 +115,21 @@ cmd({
             let buttons = [{
                     buttonId: `${prefix}ytmp4 ${anu.url}`,
                     buttonText: {
-                        displayText: "► Video",
+                        displayText: "🎥 වීඩියෝව / Video 📽️",
                     },
                     type: 1,
                 },
                 {
                     buttonId: `${prefix}ytmp3 ${anu.url}`,
                     buttonText: {
-                        displayText: "♫ Audio",
+                        displayText: "🎶 සිංදුව / Audio 🎵",
                     },
                     type: 1,
                 },
                   {
                     buttonId: `${prefix}ytdoc ${anu.url}`,
                     buttonText: {
-                        displayText: "♫ Document",
+                        displayText: "📁 💾",
                     },
                     type: 1,
                 },
@@ -141,8 +141,8 @@ cmd({
                 caption: `
 ╭───────────────◆
 │⿻ ${tlang().title} 
-│  *Youtube Player* ✨
-│⿻ *Title:* ${anu.title}
+│  *Youtube Song & Video Downloader* ✨
+│⿻ *තේමාව:* ${anu.title}
 │⿻ *Duration:* ${anu.timestamp}
 │⿻ *Viewers:* ${anu.views}
 │⿻ *Uploaded:* ${anu.ago}
