@@ -80,7 +80,7 @@ cmd({
             const sections = [
 
                 {
-                    title: "සම්පුර්ණ සෙවීම් / Total" + search.all.length,
+                    title: "සම්පූර්ණ සෙවීම් 🔎 / Total Search 🔎" + search.all.length,
                     rows: listSerch
                 }
 
@@ -129,7 +129,7 @@ cmd({
                   {
                     buttonId: `${prefix}ytdoc ${anu.url}`,
                     buttonText: {
-                        displayText: "📁 💾",
+                        displayText: "📁 Document 💾",
                     },
                     type: 1,
                 },
