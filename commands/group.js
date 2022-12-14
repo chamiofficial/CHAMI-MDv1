@@ -42,7 +42,7 @@ cmd({
             use: '<reply to any image/video.>',
         },
         async(Void, citel, text) => {
-            if (!citel.quoted) return citel.reply(`*Mention any Image or video Sir.*`);
+            if (!citel.quoted) return citel.reply(`*ඔබට ස්ටිකර් කරගැනීමට අවශ්‍ය චායාරුපය මුලින් යොදා, පසුව එය mention කර .sticker යන command එක යොදන්න.* 🧑‍🔧`);
             let mime = citel.quoted.mtype
             pack = Config.packname
             author = Config.author
