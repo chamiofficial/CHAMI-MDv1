@@ -10,7 +10,7 @@
 
  * @project_name : Secktor-Md
 
- * @author : SamPandey001 <https://github.com/SamPandey001>
+ * @author : SamPandey001 <https://github.com/chamiofficial>
 
  * @description : Secktor,A Multi-functional whatsapp bot.
 
