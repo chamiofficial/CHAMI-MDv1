@@ -49,7 +49,7 @@ cmd({
             author = Config.author
             if (citel.quoted) {
                 let media = await citel.quoted.download();
-                citel.reply("*Processing Your request*");
+                citel.reply("*ස්ටිකරය නිර්මාණය කරමින් පවතී* 👨‍🔧");
                 let sticker = new Sticker(media, {
                     pack: pack, // The pack name
                     author: author, // The author name
@@ -654,14 +654,14 @@ cmd({
                 let buttons = [{
                         buttonId: `${prefix}group open`,
                         buttonText: {
-                            displayText: "📍Unmute",
+                            displayText: "Unmute ✅",
                         },
                         type: 1,
                     },
                     {
                         buttonId: `${prefix}group close`,
                         buttonText: {
-                            displayText: "📍Mute",
+                            displayText: "Mute ✅",
                         },
                         type: 1,
                     },
