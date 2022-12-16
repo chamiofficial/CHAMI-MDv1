@@ -20,6 +20,7 @@ cmd({
             desc: "Makes photo of replied sticker.",
             category: "converter",
             use: '<reply to any gif>',
+            react: "✅",
             filename: __filename
         },
         async(Void, citel, text) => {
