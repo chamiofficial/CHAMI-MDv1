@@ -273,7 +273,7 @@ cmd({
             let yts = require("secktor-pack")
             let search = await yts(text)
             listSerch = []
-            teskd = `Result From ${text}.\n_+ ${search.all.length} more results._`
+            teskd = `ඔබ සෙවූ වචනය ${text}.\n_සම්පූර්ණ සෙවීම් + ${search.all.length}._`
             for (let i of search.all) {
                 listSerch.push({
                     title: i.title,
@@ -284,7 +284,7 @@ cmd({
             const sections = [
 
                 {
-                    title: "Total Search🔍" + search.all.length,
+                    title: "සම්පූර්ණ සෙවීම් 🔎 / Total Search 🔎" + search.all.length,
                     rows: listSerch
                 }
 
