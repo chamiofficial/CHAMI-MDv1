@@ -39,6 +39,7 @@ cmd({
             alias: ["s"],
             desc: "Makes sticker of replied image/video.",
             category: "group",
+	    react: "✅",
             use: '<reply to any image/video.>',
         },
         async(Void, citel, text) => {
