@@ -88,7 +88,7 @@ cmd({
             const listMessage = {
                 text: teskd,
                 footer: tlang().footer,
-                title: ` *${tlang().title}. 🎥 Youtube Video Downloader 👨‍🔧*`,
+                title: ` *Youtube Search results by  ${tlang().title}.*`,
                 buttonText: "ඔබට අවශ්‍ය වීඩියෝව තෝරා එවන්න",
                 mentions: await Void.parseMention(teskd),
                 sections
@@ -142,7 +142,7 @@ cmd({
 ╭───────────────◆
 │⿻ ${tlang().title} 
 │  *Youtube Song & Video Downloader* ✨
-│⿻ *තේමාව:* ${anu.title}
+│⿻ *Title:* ${anu.title}
 │⿻ *Duration:* ${anu.timestamp}
 │⿻ *Viewers:* ${anu.views}
 │⿻ *Uploaded:* ${anu.ago}
@@ -312,7 +312,7 @@ cmd({
         },
         async(Void, citel, text) => {
             let yts = require("secktor-pack");
-            if (!text) return citel.reply(`Example : ${prefix}yts ${tlang().title} WhatsApp Bot`);
+            if (!text) return citel.reply(`Example : ${prefix}yts `);
             let search = await yts(text);
             let textt = "*YouTube Search*\n\n Result From " + text + "\n\n───────────────────\n";
             let no = 1;
